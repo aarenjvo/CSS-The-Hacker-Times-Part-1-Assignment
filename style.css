@@ -1,1 +1,135 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+main {
+    padding-bottom: 30px;
+}
+
+main h5 {
+    color: #dd3232;
+}
+
+body {
+    font-family: Source Sans Pro;
+    background-color: #eee;
+    padding: 50px 0;
+    margin: auto;
+}
+
+.date{
+    color: #777;
+    font-size: 12px;
+    padding-top: 12px;
+    padding-left: 12px;
+
+}
+
+header h1 {
+    font-family: Abril Fatface;
+    text-align: center;
+}
+
+main h2 {
+    font-family: Roboto Slab;
+    width: 670px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+main h5 {
+    font-family: Abril Fatface;
+    width: 670px;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+
+.headerPic {
+    display: block;
+    width: 670px;
+    margin: 0 auto;
+
+}
+
+
+main p {
+    color: #777;
+    width: 650px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.newspaper-container {
+    width: 700px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 10px 10px 20px #ddd;
+    border-radius: 10px;
+}
+
+nav {
+    width: 670px;
+    margin: 0 auto;
+    display: block;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    
+}
+
+
+nav ul li{
+    /* display: flex;
+    justify-content: space-between; */
+    display: inline-block;
+    list-style: none;
+    padding: 0 5px;
+    font-size: 14px;
+
+}
+
+nav ul li a {
+    padding: 0 1px;
+    color: #777;
+    text-decoration: none;
+}
+
+.more-articles {
+    border-top: 2px solid #eee;
+    margin: auto;
+    width: 670px;
+}
+
+
+.tabsSpaces {
+    display: inline-block;
+    width: 40%;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.muchCaffeine {
+    display: inline-block;
+    width: 40%;
+    padding-left: 60px;
+    padding-bottom: 25px;
+}
+
+.tabsSpaces h4 {
+    font-family: Roboto Slab;
+}
+
+.muchCaffeine h4 {
+    font-family: Roboto Slab;
+}
+
+.tabsSpaces p {
+    color: #777;
+    padding: 5px 0;
+    padding-left: 15px;
+}
+
+.muchCaffeine p {
+    color: #777;
+    padding: 5px 0;
+    padding-left: 15px;
+}
