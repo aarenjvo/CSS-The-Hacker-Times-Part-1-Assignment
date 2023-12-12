@@ -68,9 +68,11 @@ main p {
 }
 
 nav {
-    width: 670px;
+    position: sticky;
+    top: .01em;
+    background-color: white;
+    width: 700px;
     margin: 0 auto;
-    display: block;
     border-top: 2px solid #eee;
     border-bottom: 2px solid #eee;
     
